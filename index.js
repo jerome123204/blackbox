@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const app = express();
-const port = 6969;
+const port = 2000;
 app.use(express.json());
 
 app.get('/ask', (req, res) => {
